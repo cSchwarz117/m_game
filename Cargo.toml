@@ -1,0 +1,11 @@
+[package]
+name = "m_game"
+version = "0.1.0"
+authors = ["cSchwarz117 <cschwarz@pdx.edu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+square = { git = "http://github.com/cSchwarz117/randMagicSquare" }
+rand = { git = "https://github.com/rust-random/rand" }
