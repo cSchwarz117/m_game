@@ -2,6 +2,7 @@ use rand::Rng;
 use square::*;
 use std::io::{stdin, stdout, Write};
 
+#[allow(unused_variables)]
 /*fn rand_vec(x: i32) -> Array2D<i64>{
   let mut rand = Array2D::filled_with(0, x, 2);
   let mut rng = rand::thread_rng();
@@ -61,7 +62,6 @@ fn seven_ez() {
     prompt(6, &vec, &vec2, square[(vec[5], vec2[5])]);
     prompt(7, &vec, &vec2, square[(vec[6], vec2[6])]);
 
-
     println!("**********");
     println!("Here is the complete square!");
     for x in 0..7 {
@@ -101,7 +101,6 @@ fn seven_hard() {
     prompt(5, &vec, &vec2, square[(vec[4], vec2[4])]);
     prompt(6, &vec, &vec2, square[(vec[5], vec2[5])]);
     prompt(7, &vec, &vec2, square[(vec[6], vec2[6])]);
-
 
     println!("**********");
     println!("Here is the complete square!");
@@ -214,11 +213,11 @@ fn menu_loop() {
         if inp == "2" {
             five_hard();
         }
- 
+
         if inp == "3" {
             seven_ez();
         }
-        if inp == "4"{
+        if inp == "4" {
             seven_hard();
         }
 
