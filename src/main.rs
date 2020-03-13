@@ -54,6 +54,7 @@ fn seven_ez() {
     }
     println!("**********");
 
+    println!("For a 7x7 all rows, cols, and daigonals add to 175");
     prompt(1, &vec, &vec2, square[(vec[0], vec2[0])]);
     prompt(2, &vec, &vec2, square[(vec[1], vec2[1])]);
     prompt(3, &vec, &vec2, square[(vec[2], vec2[2])]);
@@ -94,6 +95,7 @@ fn seven_hard() {
     }
     println!("**********");
 
+    println!("For a 7x7 all rows, cols, and daigonals add to 175");
     prompt(1, &vec, &vec2, square[(vec[0], vec2[0])]);
     prompt(2, &vec, &vec2, square[(vec[1], vec2[1])]);
     prompt(3, &vec, &vec2, square[(vec[2], vec2[2])]);
@@ -133,6 +135,7 @@ fn five_ez() {
     }
     println!("**********");
 
+    println!("For a 5x5 all rows, cols, and daigonals add to 65");
     prompt(1, &vec, &vec2, square[(vec[0], vec2[0])]);
     prompt(2, &vec, &vec2, square[(vec[1], vec2[1])]);
     prompt(3, &vec, &vec2, square[(vec[2], vec2[2])]);
@@ -169,6 +172,7 @@ fn five_hard() {
         println!();
     }
     println!("**********");
+    println!("For a 5x5 all rows, cols, and daigonals add to 65");
 
     prompt(1, &vec, &vec2, square[(vec[0], vec2[0])]);
     prompt(2, &vec, &vec2, square[(vec[1], vec2[1])]);
